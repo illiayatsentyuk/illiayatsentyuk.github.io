@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(243, 243, 243);
+    width: 1000px;
+    padding:15px 15px 30px 15px;
+    border-radius: 15px;
+}
+.text{
+    font-weight: 650;
+    font-size: 20px;
+    color:rgb(123, 123, 123);
+}
+.img{
+    width:250px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 0px 50px 0px 0px;
+}
+.data{
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+}
+.content{
+    padding:0px 0px 0px 50px;
+}
+a{
+    color: black;
+}
+.fa{
+
+}
+.fa:hover{
+    transform: scale(2);
+}
